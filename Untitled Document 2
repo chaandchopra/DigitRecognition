@@ -1,0 +1,6 @@
+from sklearn import datasets
+from sklearn.svm import SVC
+
+digits = datasets.load_digits()
+
+print(digits)
